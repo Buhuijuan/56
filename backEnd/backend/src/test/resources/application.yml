@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:mycampus-test;MODE=MySQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  mail:
+    host:
+    port: 465
+    username:
+    password:
+
+app:
+  jwt:
+    secret: change-me-to-a-long-secret-key-for-dev-only-1234567890
+    access-token-expire-seconds: 86400
+  mail:
+    enabled: false
+    mock-delivery: true
+  game:
+    data-root: ../Assets/Resources/Jsons
+    clockin-dir: ClockInEvents
+    story-max-rounds: 3
