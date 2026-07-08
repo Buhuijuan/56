@@ -1,0 +1,10 @@
+.idea/
+*.log
+.DS_Store
+frontEnd/Library/
+frontEnd/Temp/
+frontEnd/Logs/
+frontEnd/Obj/
+frontEnd/Build/
+frontEnd/Builds/
+frontEnd/UserSettings/
