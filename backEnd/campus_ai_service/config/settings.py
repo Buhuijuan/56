@@ -1,0 +1,21 @@
+import os
+from pathlib import Path
+
+# 根目录
+BASE_DIR = Path(__file__).parent.parent
+
+# 数据目录
+DATA_DIR = BASE_DIR / "data"
+KNOWLEDGE_DIR = DATA_DIR / "knowledge"
+SCENE_CONFIG_PATH = DATA_DIR / "scene_positions.json"
+
+# API配置
+ENCRYPTED_API_KEY_B64 = "Z0FBQUFBQnBtcTd0TWo4TUN1cnBMZ3A2eENfU2xVUzZsOERON2hSSnBwU2VGR29PTXRDMzJOcC1vWEU0cWJkNkRXOEtvWVBBX2R0bk81dk85ZGxnSTNDcWNEck9JT3FQd0xaY1FSMFQzODVrelp1Q2RiMVFrb0Y1VFhPQjVTdGVVdTd2d1RBYTdYVXU="
+SECRET_KEY_FILENAME = "secret.key"
+
+# 限流
+RATE_LIMIT = 10
+RATE_LIMIT_WINDOW = 60
+
+# 本地模式
+LOCAL_MODE = False

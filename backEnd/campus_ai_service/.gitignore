@@ -1,0 +1,44 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+ENV/
+env/
+.env/
+virtualenv/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日志
+logs/
+*.log
+
+# 数据库临时文件
+*.db
+*.sqlite

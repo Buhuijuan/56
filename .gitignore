@@ -8,3 +8,10 @@ frontEnd/Obj/
 frontEnd/Build/
 frontEnd/Builds/
 frontEnd/UserSettings/
+backEnd/campus_ai_service/**/__pycache__/
+backEnd/campus_ai_service/**/*.pyc
+backEnd/campus_ai_service/*.log
+backEnd/campus_ai_service/secret.key
+backEnd/campus_ai_service/.env
+backEnd/campus_ai_service/venv/
+backEnd/campus_ai_service/.venv/
